@@ -1,27 +1,50 @@
-.HomePage{
+.HomePage {
     position: relative;
-    width: 100%; /* for IE 6 */
+    width: 100%;
 }
 
-.nav{
+.nav {
     position: absolute;
-
     top: 0px;
-
-
     width: 100%;
     right: 10px;
-    /*display: flex;*/
-    /*flex-direction: row;*/
     align-items: center;
     display: flex;
     flex-direction: row;
-    /*justify-content: center;*/
 }
 
-.top_navigation_container{
+.Middle_Text_Container {
+    width: 52%;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+}
 
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content: space-between;*/
+.title {
+    /* Text/H1 */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: left;
+    /* Text / White */
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+.title_with_span {
+    color: #65ddf4;
+}
+
+.subtitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
 }
