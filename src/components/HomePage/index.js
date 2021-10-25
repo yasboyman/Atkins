@@ -13,22 +13,28 @@ const HomePage = () => {
         style={{ backgroundSize: "cover", zIndex: "-1" }}
       />
 
-      <div>
-        <img src={companyLogo} alt={"company logo"} />
+      <div className={"top_navigation_container"}>
+        <nav
+          className={"nav"}
+          style={{ color: "white", fontSize: "20px", marginTop: "2%" }}
+        >
+          <div>
+            <img
+              src={companyLogo}
+              alt={"company logo"}
+              style={{ marginRight: "260px", marginLeft: "120px" }}
+            />
+          </div>
+          <NavigationItems item={"About Us"} />
+          <NavigationItems item={"Partners"} />
+          <NavigationItems item={"Strategy"} />
+          <NavigationItems item={"Our Work"} />
+          <NavigationItems item={"News"} />
+          <NavigationItems item={"WPVC"} />
+          <NavigationItems item={"Videos"} />
+          <NavigationItems item={"Contact Us"} />
+        </nav>
       </div>
-      <nav
-        className={"nav"}
-        style={{ color: "white", fontSize: "20px", marginTop: "2%" }}
-      >
-        <NavigationItems item={"About Us"} />
-        <NavigationItems item={"Partners"} />
-        <NavigationItems item={"Strategy"} />
-        <NavigationItems item={"Our Work"} />
-        <NavigationItems item={"News"} />
-        <NavigationItems item={"WPVC"} />
-        <NavigationItems item={"Videos"} />
-        <NavigationItems item={"Contact Us"} />
-      </nav>
     </div>
   );
 };

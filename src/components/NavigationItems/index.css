@@ -7,6 +7,7 @@
     padding: 9px;
     line-height: 24px;
     font-family: Montserrat, sans-serif;
+    margin:5px;
 }
 
 .nav_item_last{
@@ -24,13 +25,9 @@
     /*flex-direction: row;*/
     /*justify-content: center;*/
     align-items: center;
-    padding: 10px 38px;
-
-
-    width: 156px;
-
-
-
-
+    padding: 9px 28px;
+    width: 90px;
+    height: 20px;
+    margin:20px;
     background: #FFFFFF;
 }
