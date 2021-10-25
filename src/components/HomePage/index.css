@@ -39,12 +39,34 @@
     color: #65ddf4;
 }
 
-.subtitle{
+.subtitle {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+}
 
+.signUp_btn {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 38px;
+    background: #FFFFFF;
+    color: #201D1E;
+    border: #FFFFFF 1px solid ;
+    margin-right: 10px;
+}
+
+.learnMore_btn {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 38px;
+    background:  transparent;
+    color: #FFFFFF;
+    border: #FFFFFF 1px solid ;
 }
