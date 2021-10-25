@@ -1,0 +1,36 @@
+.nav_item{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    font-style: normal;
+    padding: 9px;
+    line-height: 24px;
+    font-family: Montserrat, sans-serif;
+}
+
+.nav_item_last{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    font-style: normal;
+    padding: 9px;
+    line-height: 24px;
+    font-family: Montserrat, sans-serif;
+    background-color: white;
+    color: #201D1E;
+    width: 156px;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+    align-items: center;
+    padding: 10px 38px;
+
+
+    width: 156px;
+
+
+
+
+    background: #FFFFFF;
+}

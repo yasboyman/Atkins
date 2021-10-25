@@ -1,0 +1,16 @@
+.HomePage{
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
+
+.nav{
+    position: absolute;
+    /*top:2%;*/
+    top: 0px;
+    /*left: 50px;*/
+    /*right:50px;*/
+    width: 90%;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+}
