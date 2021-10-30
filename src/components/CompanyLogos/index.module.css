@@ -1,0 +1,14 @@
+.logos_container{
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 52%;
+    justify-content: space-between;
+
+}
+
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

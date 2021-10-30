@@ -3,6 +3,7 @@ import backgroundImage from "../../Assets/Hero/Hero Background.png";
 import NavigationItems from "../NavigationItems";
 import "./index.css";
 import companyLogo from "../../Assets/ClickBait Industries.svg";
+import CompanyLogos from "../CompanyLogos";
 
 const HomePage = () => {
   return (
@@ -47,6 +48,7 @@ const HomePage = () => {
           <button className={"learnMore_btn"}> Learn More</button>
         </div>
       </div>
+      <CompanyLogos />
     </div>
   );
 };
