@@ -1,4 +1,4 @@
-.logos_container{
+.logos_container {
     margin-left: 25%;
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +7,7 @@
 
 }
 
-img{
+img {
     margin-top: 20px;
     margin-bottom: 20px;
 }
